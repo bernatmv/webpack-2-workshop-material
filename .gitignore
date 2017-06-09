@@ -1,16 +1,16 @@
 # Logs
-/logs/
+/**/logs/
 *.log
 yarn-error.log
 npm-debug.log*
 
 # Dependencies
-/node_modules/
+/**/node_modules/
 
 # Transpiled files
-/dist/
-/coverage/
-/build/
+/**/dist/
+/**/coverage/
+/**/build/
 
 # VS Code
 .vscode

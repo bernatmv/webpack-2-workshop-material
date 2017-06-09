@@ -1,0 +1,4 @@
+- explicació
+- install node
+- npm install en cada ejercicio
+- npm start

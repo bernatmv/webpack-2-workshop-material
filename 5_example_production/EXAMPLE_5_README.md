@@ -1,0 +1,4 @@
+- vendor
+- tree-shacking
+- dedupe
+- uglify

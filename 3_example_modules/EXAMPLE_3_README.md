@@ -1,3 +1,3 @@
-- less
+- sourcemaps
 - css modules
 - images modules

@@ -25,6 +25,7 @@ module.exports = {
         path: outPath,
         filename: 'bundle.js',
     },
+    devtool: 'source-map',
     resolve: {
         extensions: ['.js']
     },
@@ -46,12 +47,23 @@ module.exports = {
                 test: /\.less$/,
                 use: extractLess.extract({
                     use: [{
-                        loader: 'css-loader'
+                        loader: 'css-loader',
+                        options: {
+                            modules: true,
+                            namedExport: true,
+                            sourceMap: true,
+                            importLoaders: 1,
+                            localIdentName: '[local]__[hash:base64:5]'
+                        }
                     }, {
                         loader: 'less-loader'
                     }],
                     fallback: 'style-loader'
                 })
+            },
+            { 
+                test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/, 
+                use: 'url-loader' 
             }
         ],
     },

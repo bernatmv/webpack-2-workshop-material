@@ -1,5 +1,3 @@
-npm install
-
 - es6
 - bundling
-- npm scripts
+- package.json & npm scripts

@@ -1,3 +1,3 @@
-import {greeting} from './greeting';
+import greeting from './greeting';
 
 export const bernatGreet = (person) => greeting('Bernat', person);

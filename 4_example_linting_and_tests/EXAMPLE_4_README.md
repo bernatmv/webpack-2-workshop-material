@@ -1,2 +1,2 @@
 - eslint
-- jest (very brief)
+- jest

@@ -4,6 +4,6 @@ This workshop is organied as a series of exercices to do alongside a presentatio
 
 Previous to the session the attendants should:
 
-    - Install Node.js
+- Install Node.js
 
-    - Run `npm install` in every exercice folder
+- Run `npm install` in every exercice folder

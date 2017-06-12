@@ -1,8 +1,7 @@
 ## Exercice 1
 
-    - CSS loader
+- CSS loader
 
-    - HTML loader
+- HTML loader
 
-    - Webpack-dev-server
-    
+- Webpack-dev-server

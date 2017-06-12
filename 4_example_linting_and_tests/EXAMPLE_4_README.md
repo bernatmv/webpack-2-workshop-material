@@ -1,5 +1,5 @@
 ## Exercice 1
 
-    - Linting with ESLint
+- Linting with ESLint
 
-    - Testing with Jest
+- Testing with Jest

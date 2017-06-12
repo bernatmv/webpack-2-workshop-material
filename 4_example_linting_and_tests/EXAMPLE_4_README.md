@@ -1,3 +1,2 @@
 - eslint
-- multiple inputs
 - jest (very brief)

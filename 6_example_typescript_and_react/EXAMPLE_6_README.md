@@ -1,2 +1,3 @@
 - install typescript
 - typescript
+- react

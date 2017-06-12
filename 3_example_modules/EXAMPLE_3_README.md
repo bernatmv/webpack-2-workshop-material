@@ -1,8 +1,7 @@
 ## Exercice 1
 
-    - Sourcemaps
+- Sourcemaps
 
-    - CSS modules
+- CSS modules
 
-    - Image modules
-    
+- Image modules

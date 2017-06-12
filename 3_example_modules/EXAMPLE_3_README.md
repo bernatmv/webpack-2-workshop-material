@@ -1,3 +1,8 @@
-- sourcemaps
-- css modules
-- images modules
+## Exercice 1
+
+    - Sourcemaps
+
+    - CSS modules
+
+    - Image modules
+    

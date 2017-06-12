@@ -1,6 +1,11 @@
 import {bernatGreet} from './helpers/bernat';
 import consolePro, {consoleFun} from './helpers/consoleFun';
 
+import './css/styles.less';
+
 consoleFun();
 
-consolePro(bernatGreet('Jorge'));
+const greeting = bernatGreet('Jorge');
+
+consolePro(greeting);
+document.getElementById('root').innerHTML = greeting;

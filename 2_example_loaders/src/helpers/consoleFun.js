@@ -68,7 +68,7 @@ Frontend Community: Webpack 2`,
 
 const consolePro = (text) => {
     console.log(
-        '%c%s%c%s%c%s', 
+        '%c%s', 
         style.exercice, 
         text
     );
